@@ -4,7 +4,7 @@ function Footer() {
 
   return (
     <section>
-      <img/>
+      
     </section>
   )
 }
