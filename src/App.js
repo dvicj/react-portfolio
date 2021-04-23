@@ -3,7 +3,8 @@ import Nav from './components/Nav';
 import About from './components/About';
 import Gallery from './components/Gallery';
 import ContactForm from './components/Contact';
-
+import Footer from './components/Footer';
+import Header from './components/Header';
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
 
   return (
     <div>
+      <Header></Header>
       <Nav
         categories={categories}
         setCurrentCategory={setCurrentCategory}
@@ -29,6 +31,7 @@ function App() {
           <ContactForm></ContactForm>
         )}
       </main>
+      <Footer></Footer>
     </div>
   );
 }
