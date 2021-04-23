@@ -1,15 +1,12 @@
-import React from 'react';
-import Project from '../Project';
-import { capitalizeFirstLetter } from '../../utils/helpers';
+import React from 'react'
 
-function Gallery(props) {
-  const { currentCategory } = props;
+function Footer() {
+
   return (
     <section>
-      <h1 data-testid="h1tag">{capitalizeFirstLetter(currentCategory.name)}</h1>
-      <p>{currentCategory.description}</p>
-      <Project category={currentCategory.name} />
+      <img/>
     </section>
-  );
+  )
 }
-export default Gallery;
+
+export default Footer; 
