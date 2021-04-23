@@ -44,7 +44,7 @@ const Project = ({ category }) => {
         {
           name: 'Employee Tracker',
           category: 'SQL',
-          descript: 'A Node.js application to add employees to a database. Uses the inquirer and sqlite npm packages.'
+          description: 'A Node.js application to add employees to a database. Uses the inquirer and sqlite npm packages.'
         },
         {
           name: 'mnmlize',
@@ -68,7 +68,7 @@ const Project = ({ category }) => {
               <img
                 src={require(`../../assets/small/${category}/${i}.png`).default}
                 alt={image.name}
-                className=""
+                className="img-thumbnail mx-1"
                 onClick={() => toggleModal(image, i)}
                 key={image.name}
               />

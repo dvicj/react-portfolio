@@ -11,37 +11,32 @@ function Nav(props) {
   } = props;
 
   return (
-    <header>
-      <h2>
-        <a data-testid="link" href="/">
-           DEVIN JONES
-        </a>
-      </h2>
+    <header className="flex-row px-1">
       <nav>
-        <ul>
-          <li>
+        <ul className="flex-row">
+          <li className="mx-2 nav-but">
             <a data-testid="about" href="#about" onClick={() => setContactSelected(false)}>
               ABOUT
             </a>
           </li>
-          <li className={`mx-2 ${contactSelected && 'navActive'}`}>
-            <span onClick={() => setContactSelected(true)}>CONTACT</span>
+          <li className={`mx-2 nav-but ${contactSelected && 'navActive'}`}>
+            <a onClick={() => setContactSelected(true)}>CONTACT</a>
           </li>
           {categories.map((category) => (
             <li
-              className={`mx-1 ${
+              className={`mx-1 nav-but ${
                 currentCategory.name === category.name && !contactSelected && 'navActive'
                 }`}
               key={category.name}
             >
-              <span
+              <a
                 onClick={() => {
                   setCurrentCategory(category);
                   setContactSelected(false);
                 }}
               >
                 {capitalizeFirstLetter(category.name)}
-              </span>
+              </a>
             </li>
           ))}
         </ul>

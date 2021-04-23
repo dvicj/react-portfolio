@@ -5,7 +5,7 @@ function Header() {
 
   return (
     <section>
-      <img src={coverImage} style={{width: "100%"}} alt='cover'/>
+      <img id="cover-image" src={coverImage} alt='cover'/>
     </section>
   )
 }
