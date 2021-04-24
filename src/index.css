@@ -71,6 +71,10 @@ a {
   -webkit-text-fill-color: transparent;
 }
 
+.modal-link {
+  background-color: black;
+}
+
 img {
   max-width: 100%;
 }
@@ -191,7 +195,7 @@ nav a:hover {
 }
 
 .modalBackdrop {
-	background: #E1CFD880;
+  background: #00000080;
 	bottom: 0;
 	left: 0;
 	overflow: auto;
@@ -202,7 +206,7 @@ nav a:hover {
 }
 
 .modalContainer {
-	background: #F5F59180;
+	background: #00000080;
 	border-radius: 5px;
 	max-width: 100%;
 	margin: 50px auto;
@@ -211,9 +215,14 @@ nav a:hover {
 }
 
 .modalTitle {
+  color: var(--mint);
 	font-size: 18px;
 	font-weight: 600;
 	margin-bottom: 25px;
+}
+
+p, h1 {
+  color: var(--mint);
 }
 
 button {
@@ -230,4 +239,10 @@ button {
 
 .navActive {
   color: var(--sky);
+}
+
+.about-sec {
+  background-color: black; 
+  padding: 10px; 
+  border-radius: 10px;
 }

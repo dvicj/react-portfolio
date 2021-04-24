@@ -10,9 +10,7 @@ function App() {
   const [categories] = useState([
     {name: 'API', description: 'Application Programming Interface'},
     {name: 'MVC', description: 'Model View Controller'},
-    {name: 'NoSQL', description: 'Not Only SQL'},
     {name: 'OOM', description: 'Object Oriented Mapping'},
-    {name: 'ORM', description: 'Object Relational Mapping'},
     {name: 'PWA', description: 'Progressive Web Application'},
     {name: 'SQL', description: 'Structured Query Language'}
   ]);
