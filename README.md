@@ -4,7 +4,7 @@ Hello, and welcome to my README! This is for my Week 20 Challenge, which was to 
 
 [Check out my portfolio here...](https://dvicj.github.io/react-portfolio)
 
-![finished html]()
+![finished html](https://github.com/dvicj/react-portfolio/blob/master/src/assets/cover/React-App.png)
 
 
 It was my job to ensure my Portfolio had the following features and met these qualifications:
@@ -35,7 +35,7 @@ Features:
 
 ## Installation
 
-There is no installation required. Just visit [React Portfolio]()
+There is no installation required. Just visit [React Portfolio](https://dvicj.github.io/react-portfolio)
 
 ## Usage
 Here are some user experience highlights from my page:
@@ -44,13 +44,13 @@ Here are some user experience highlights from my page:
 - navigation buttons for projects, broken down into specific categories
 - modals that open when an image is clicked on. Title, description, and links to live url and github repository
 
-![About me]()
+![Contact me](https://github.com/dvicj/react-portfolio/blob/master/src/assets/cover/contact-me.PNG)
 
 
-![Contact me]()
+![Gallery](https://github.com/dvicj/react-portfolio/blob/master/src/assets/cover/gallery.PNG)
 
 
-![Modal]()
+![Modal](https://github.com/dvicj/react-portfolio/blob/master/src/assets/cover/modal.png)
 
 
 ## Credits
