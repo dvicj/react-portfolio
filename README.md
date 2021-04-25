@@ -1,70 +1,84 @@
-# Getting Started with Create React App
+# React Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Hello, and welcome to my README! This is for my Week 20 Challenge, which was to create a Portfolio using React. I learned a lot while doing this, and I am happy to be able to share my experience with you.
 
-## Available Scripts
+[Check out my portfolio here...](https://dvicj.github.io/react-portfolio)
 
-In the project directory, you can run:
+![finished html]()
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+It was my job to ensure my Portfolio had the following features and met these qualifications:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- be an SPA (Single Page Application)
+- have navigation titles for: 
+    - About Me - with recent photo and short bio. I included a link for a downloadable  resume here 
+    - Contact - a form where the user enters name, email and message
+    - Project Categories
+- Header, Nav, Project, and Footer components 
 
-### `npm test`
+I was to create this Portfolio, and meet all of the requirements listed above, by using:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [React.js](https://reactjs.org/)
+- JavaScript
+- HTML 
+- CSS
 
-### `npm run build`
+I completed this project as a low stakes and personal way to practice using React.js. 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Features:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* [Installation](#installation)
+* [Usage](#usage)
+* [Credits](#credits)
+* [Learning](#learning)
+* [License](#license)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Installation
 
-### `npm run eject`
+There is no installation required. Just visit [React Portfolio]()
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Usage
+Here are some user experience highlights from my page:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- navigation buttons for "ABOUT ME" and "CONTACT" which open corresponding "About Me" and "Contact Me" sections
+- navigation buttons for projects, broken down into specific categories
+- modals that open when an image is clicked on. Title, description, and links to live url and github repository
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+![About me]()
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+![Contact me]()
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![Modal]()
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Credits
+These are some sources I used to help me along:
 
-### Analyzing the Bundle Size
+- [React.js](https://reactjs.org/)
+- [Google Fonts](https://fonts.google.com/specimen/Turret+Road?preview.text_type=custom#glyphs)
+- [Font Awesome for React](https://fontawesome.com/how-to-use/on-the-web/using-with/react)
+- [How to use Google Fonts in React.js?](https://stackoverflow.com/questions/40769551/how-to-use-google-fonts-in-react-js)
+- [Add link to Font Awesome icon in React](https://stackoverflow.com/questions/57200956/add-link-to-font-awesome-icon-in-reactjs)
+- [Download CV by direct download](https://stackoverflow.com/questions/55743858/i-want-to-be-cv-direct-downloaded-by-clicking-download-button)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Learning
+Here are the highlights of what I learned and issues I had while writing this code.
 
-### Making a Progressive Web App
+- Relearning aspects of HTML and applying them to JSX, like how to import font and icon libraries without having a head section to add them to
+- The webpage automatically reloading whenever you save the file is very handy
+- Having to do front end/ aesthetic coding again was kind of a shock to the system. It had been so long, and I found making the website actually look good and how I wanted it took longer than making the website functional.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## License
+MIT License
 
-### Advanced Configuration
+![license](https://img.shields.io/static/v1?label=license&message=MIT&color=blueviolet)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Copyright (c) 2021 Devin Jones
 
-### Deployment
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
