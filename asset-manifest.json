@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.1f9683cc.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.0c9e074a.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.0c9e074a.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.89700c05.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.89700c05.js.map",
+    "static/js/2.2b2f881b.chunk.js": "/react-portfolio/static/js/2.2b2f881b.chunk.js",
+    "static/js/2.2b2f881b.chunk.js.map": "/react-portfolio/static/js/2.2b2f881b.chunk.js.map",
+    "static/js/3.6d37693c.chunk.js": "/react-portfolio/static/js/3.6d37693c.chunk.js",
+    "static/js/3.6d37693c.chunk.js.map": "/react-portfolio/static/js/3.6d37693c.chunk.js.map",
+    "index.html": "/react-portfolio/index.html",
+    "static/css/main.1f9683cc.chunk.css.map": "/react-portfolio/static/css/main.1f9683cc.chunk.css.map",
+    "static/js/2.2b2f881b.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.2b2f881b.chunk.js.LICENSE.txt",
+    "static/media/0.png": "/react-portfolio/static/media/0.6871423c.png",
+    "static/media/1.png": "/react-portfolio/static/media/1.a93ea715.png",
+    "static/media/Devin-Jones-Resume.9b434e8f.png": "/react-portfolio/static/media/Devin-Jones-Resume.9b434e8f.png",
+    "static/media/about-me-photo.6e4fb438.jpg": "/react-portfolio/static/media/about-me-photo.6e4fb438.jpg",
+    "static/media/cover-image.3833eefd.png": "/react-portfolio/static/media/cover-image.3833eefd.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.89700c05.js",
+    "static/js/2.2b2f881b.chunk.js",
+    "static/css/main.1f9683cc.chunk.css",
+    "static/js/main.0c9e074a.chunk.js"
+  ]
+}
