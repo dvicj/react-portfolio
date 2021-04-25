@@ -4,11 +4,14 @@ function About() {
 
   return (
     <section className="my-5 about-sec">
-      <h1 id="about">ABOUT</h1>
+      <h1 id="about">ABOUT ME</h1>
       <div className="my-2">
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum turpis sed ex condimentum molestie. Mauris condimentum lectus ut ornare dignissim. Mauris faucibus urna mi, ac feugiat metus aliquam maximus. Proin aliquam justo nec diam vulputate vestibulum. Aenean sollicitudin nulla at nisi ornare, nec suscipit massa eleifend. Morbi tristique justo vel turpis sollicitudin, et tristique velit convallis. In hac habitasse platea dictumst. Phasellus mattis nunc sed orci consequat laoreet. Praesent id nisl nibh. Curabitur imperdiet ultricies mollis. In hac habitasse platea dictumst.
+          Thanks for checking out my portfolio! My name is Devin. I am a 27 year old living in Ontario, Canada. 
+          I am learning to code and I love creating beautiful and functional websites from scratch. Feel free to check me
+          out at any of the links below. Thanks! 
       </p>
+      <a className="resume-dl" href="resume.html" title="Devin Jones Resume" download>Download my resume</a>
       </div>
     </section>
   )

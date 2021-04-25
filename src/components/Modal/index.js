@@ -12,6 +12,7 @@ const Modal = ({ onClose, currentPhoto }) => {
           {description}
         </p>
         <a href={url} className="modal-link">Application</a>
+        <br></br>
         <a href={github} className="modal-link">Github Repo</a>
         <button type="button" onClick={onClose}>
           CLOSE

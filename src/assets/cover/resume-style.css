@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+    text-decoration: none; 
+    font-size: 18px;
+    background-color: var(--peach); 
+    box-sizing: border-box;
+}
+
+:root {
+    --lilac: #C29DC2; 
+    --peach: #ffc182; 
+    --border-lilac: var(--lilac) dotted;
+    --border-peach: var(--peach) dotted; 
+}
+img {
+    border-radius: 20px; 
+    opacity: 0.7;
+}
+img:hover {
+    opacity: 1; 
+}
+
+/* navbar/header */
+.hero {
+    display: flex; 
+    height: 125px; 
+    justify-content: center;
+    width: 100%; 
+
+}
+.hero img {
+    height: 125px; 
+}
+
+/*navbar flex container*/
+.navbar {
+    display: flex; 
+    flex-flow: column wrap;   
+    font-size: 16px; 
+    background-color: var(--lilac); 
+}
+/* navbar flex items */ 
+.navbar-links { 
+    padding: 25px 0 0 5px; 
+    border-bottom:var(--peach) dotted 1px; 
+    color: var(--peach); 
+    text-align: center;
+    background-color: var(--lilac);
+}
+
+.navbar-links::before {
+    content: "✨";
+}
+.navbar-links::after {
+    content: "✨";
+}
+
+h2 {
+    color: var(--lilac);
+    font-weight: 900;
+    font-size: 25px;
+    font-style: italic;
+}
+h3 {
+    color: white; 
+    font-size: 20px;
+}
+
+h4, p {
+    color: var(--lilac); 
+}
+
+ul li::before {
+    content:"✨"
+}
+
+.footer {
+    display: flex; 
+    flex-flow: row nowrap;  
+    height:75px; 
+    background-color: var(--lilac);
+    align-content: flex-end;
+}
+
+.footer p {
+    text-align:center;
+    font-size: 20px; 
+    color: var(--peach);
+    background-color:var(--lilac); 
+    border-top:var(--border-peach); 
+    padding-top: 12px; 
+}
+
+@media screen and (min-width: 600px) {
+    .hero {
+        display: flex;
+        background-color: var(--peach);
+        justify-content: center; 
+        height: 350px; 
+    }
+    .hero img { 
+        opacity: 1; 
+        height: 350px; 
+    }
+    .navbar {
+          flex-flow: row nowrap; 
+          height: 200px; 
+          font-size: 50px;  
+          padding: 25px; 
+          margin: 10px; 
+          justify-content: space-around;
+          align-items: center;
+          border-bottom: var(--peach) dotted;
+     }
+     .navbar-links {
+        padding-left: 55px;
+        border:var(--peach) dotted; 
+        text-align: center;
+     }
+     .navbar-links::before {
+         content: "☔";
+     }
+     .navbar-links:hover {
+        color: var(--lilac); 
+        background-color: var(--peach); 
+    }
+    .navbar-links:hover::before {
+        content: "✨";
+    }
+  }

@@ -20,7 +20,9 @@ function Nav(props) {
             </a>
           </li>
           <li className={`mx-2 nav-but ${contactSelected && 'navActive'}`}>
-            <a onClick={() => setContactSelected(true)}>CONTACT</a>
+            <a onClick={() => setContactSelected(true)}>
+              CONTACT
+            </a>
           </li>
           {categories.map((category) => (
             <li
