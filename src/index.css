@@ -260,3 +260,8 @@ button {
 .gall-name {
   color: black; 
 }
+
+#about-image {
+  height: 250px; 
+  width: auto; 
+}
