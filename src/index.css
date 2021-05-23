@@ -244,6 +244,7 @@ button {
   background-color: black; 
   padding: 10px; 
   border-radius: 10px;
+  height: 355px; 
 }
 
 .foot-link {
@@ -262,6 +263,14 @@ button {
 }
 
 #about-image {
-  height: 250px; 
+  height: 200px; 
   width: auto; 
+  float: left; 
+  margin: 20px; 
+  border-radius: 10px; 
+  box-shadow: 5px 5px 2px #F5F591;
+}
+
+#about-text {
+
 }
