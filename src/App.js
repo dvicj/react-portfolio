@@ -12,7 +12,8 @@ function App() {
     {name: 'MVC', description: 'Model View Controller'},
     {name: 'OOM', description: 'Object Oriented Mapping'},
     {name: 'PWA', description: 'Progressive Web Application'},
-    {name: 'SQL', description: 'Structured Query Language'}
+    {name: 'SQL', description: 'Structured Query Language'},
+    {name: 'MERN', description: 'MongoDB, Express.js, React.js, Node.js'}
   ]);
 
   const [currentCategory, setCurrentCategory] = useState(categories[0]);

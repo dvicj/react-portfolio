@@ -61,6 +61,13 @@ const Project = ({ category }) => {
           description: 'An application to add and delete items from your personal inventory. Uses MySQL and Handlebars.js.',
           url: 'https://mnmlize.herokuapp.com/',
           github: 'https://github.com/P-I-M/Personal-Inventory-Management-'
+        },
+        {
+          name: 'currenseed',
+          category: 'MERN',
+          description: "An online farmer's market. Buy and sell products and earn seeds!",
+          url: 'https://currenseed.herokuapp.com',
+          github: 'https://github.com/DJ-KARMA/currenseed/tree/main'
         }
     ])
     
